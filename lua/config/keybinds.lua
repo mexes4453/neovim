@@ -9,3 +9,5 @@ vim.g.mapleader = " "
 -- as ":Ex" which opens the directory while working on a file in nvim.
 vim.keymap.set("n", "<leader>cd", ":Ex<CR>")
 
+vim.keymap.set("n", "<C-q>", "<C-v>")
+
