@@ -3,6 +3,7 @@ return {
     event = {"InsertEnter"},
     dependencies = {
         "hrsh7th/nvim-cmp",
+		"nvim-treesitter/nvim-treesitter",
     },
     config = function()
         local autopairs = require("nvim-autopairs")
@@ -12,9 +13,6 @@ return {
             ts_config = {
                 lua = {"string"},
                 javascript = {"template_string"},
-                java = false,
-                cpp = true,
-                c = true,
             },
         })
         local cmp_autopairs = require("nvim-autopairs.completion.cmp")
