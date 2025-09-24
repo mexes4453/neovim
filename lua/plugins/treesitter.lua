@@ -8,7 +8,7 @@ return {
 	    indent = { enable = true },
 	    autotage = { enable = true },
 	    ensure_installed = { 
-               "lua",
+           "lua",
 	       "c", 
 	       "cpp",
 	       "tsx",

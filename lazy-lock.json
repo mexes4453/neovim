@@ -4,6 +4,7 @@
   "lualine.nvim": { "branch": "master", "commit": "b8c23159c0161f4b89196f74ee3a6d02cdc3a955" },
   "mini.files": { "branch": "main", "commit": "2db6db37c37ee5955fe72907e33fa31cd2dd0fd4" },
   "mini.nvim": { "branch": "main", "commit": "bc34736e5b1d5561bc628f1cedd7c01f5ce5ee9f" },
+  "mini.splitjoin": { "branch": "main", "commit": "93b14b5e8e8107b77724b09763dcd6de58626af7" },
   "nvim-autopairs": { "branch": "master", "commit": "23320e75953ac82e559c610bec5a90d9c6dfa743" },
   "nvim-cmp": { "branch": "main", "commit": "b5311ab3ed9c846b585c0c15b7559be131ec4be9" },
   "nvim-lspconfig": { "branch": "master", "commit": "d9879110d0422a566fa01d732556f4d5515e1738" },

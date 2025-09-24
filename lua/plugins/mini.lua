@@ -3,7 +3,7 @@ return {
     -- Mini Nvim
     {"echasnovski/mini.nvim", version = false },
 
-    -- File explorer (this works properly with oil)
+    -- File explorer (this works properly with oil) from mini
     {
        'echasnovski/mini.files',
         config = function()
@@ -23,5 +23,20 @@ return {
                 MiniFile.reveal_cwd()
             end, { desc="Toggle into currently opened file"})
         end
+    },
+    {
+        "echasnovski/mini.splitjoin",
+        config = function()
+            local miniSplitJoin = require("mini.splitjoin")
+
+            miniSplitJoin.setup({
+                mappings = { toggle = " "}, -- Disable default mapping
+            })
+
+            vim.keymap.set({"n", "x"}, "sj", function() miniSplitJoin.join() end, {desc="Join arguments"})
+            vim.keymap.set({"n", "x"}, "sk", function() miniSplitJoin.split() end, {desc="split arguments"})
+
+        end
+
     }
 }

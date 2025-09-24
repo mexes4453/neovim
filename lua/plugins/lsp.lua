@@ -5,11 +5,11 @@ return {
             local lsp = require('lsp-zero')
             lsp.preset('recommended')
             lsp.ensure_installed({
-            	'tsserver',
-            	'eslint',
-            	'sumneko_lua',
-            	'rust_analyzer',
-            	'cpp',
+                'tsserver',
+                'eslint',
+                'sumneko_lua',
+                'rust_analyzer',
+                'cpp',
             })
             local cmp = require('cmp')
             local cmp_select = { behaviour = cmp.SelectBehaviour.Select}
